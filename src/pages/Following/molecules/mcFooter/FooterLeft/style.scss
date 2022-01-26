@@ -1,0 +1,29 @@
+.FooterLeft_wraper{
+  display: flex;
+  flex: 3;
+  align-items: center;
+
+  .footer-img{
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    object-fit: cover;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+  }
+
+  .footer-title{
+    .song-name{
+      margin-bottom: 4px;
+      color: #FFFFFF;
+      font-weight: 500px;
+      font-size: 16px;
+    }
+
+    .singer{
+      color: #6F6E7A;
+      font-size: 14px;
+    }
+  }
+}

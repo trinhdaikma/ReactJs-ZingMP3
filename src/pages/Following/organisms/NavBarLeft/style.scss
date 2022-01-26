@@ -1,0 +1,8 @@
+.NavBarLeft_wrapper{
+  display: grid;
+  grid-area: left;
+  grid-template-areas: "logo" "navList" "navScroll" "newList";
+  grid-template-rows: 70px 200px calc(100% - 70px - 200px - 54px) 54px;
+  background-color: rgb(51, 55, 92);
+  background-color: #231B2E;
+}

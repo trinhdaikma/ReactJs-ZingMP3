@@ -1,0 +1,12 @@
+.Logo_wrapper{
+  display: flex;
+  grid-area: logo;
+  align-items: center;
+  padding: 0 20px;
+
+  .logo_img{
+    width: 120px;
+    height: 40px;
+    object-fit: contain;
+  }
+}

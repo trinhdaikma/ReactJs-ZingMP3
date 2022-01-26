@@ -1,0 +1,39 @@
+.ListMusic_wrapper{
+  .item-music{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    .music-img{
+      flex-shrink: 0;
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .song-name{
+      margin-left: 4px;
+      color: #7F7A88;
+      font-weight: 500;
+      font-size: 16px;
+    }
+
+    .singer{
+      color: #443C51;
+      font-size: 14px;
+    }
+  }
+
+  .item-music:hover{
+    background-color: #7200A1;
+
+    .song-name,
+    .singer{
+      color: #FFFFFF;
+    }
+  }
+}

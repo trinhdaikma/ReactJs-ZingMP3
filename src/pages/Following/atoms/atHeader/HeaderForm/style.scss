@@ -1,0 +1,27 @@
+.HeaderForm_wraper{
+  flex: 8;
+
+  .form{
+    display: flex;
+    align-items: center;
+    width: 450px;
+    background-color: #2F2739;
+    border-radius: 20px;
+
+    .form-input{
+      width: 400px;
+      height: 35px;
+      color: #333333;
+      color: #FFFFFFFF;
+      background-color: transparent;
+      border: none;
+      outline: none;
+    }
+
+    .icon-search{
+      margin: 0 10px;
+      color: #FFFFFF;
+      font-size: 20px;
+    }
+  }
+}

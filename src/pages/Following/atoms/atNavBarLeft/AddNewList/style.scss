@@ -1,0 +1,19 @@
+.NewListAdd_wrapper{
+  display: flex;
+  grid-area: newList;
+  align-items: center;
+  padding: 0 20px;
+  border-top: 1px solid #383142;
+  cursor: pointer;
+
+  .icon-add{
+    margin-right: 8px;
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+
+  .title-add{
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+}

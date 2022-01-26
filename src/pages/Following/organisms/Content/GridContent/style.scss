@@ -1,0 +1,11 @@
+.GridContent_wrapper{
+  display: grid;
+  grid-auto-rows: 620px 120px 640px 220px;
+  grid-template-areas:
+    "img1 img2"
+    "img3 img2"
+    "img3 img4"
+    "img5 img4";
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}

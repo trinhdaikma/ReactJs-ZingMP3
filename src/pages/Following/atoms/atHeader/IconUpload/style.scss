@@ -1,0 +1,25 @@
+.IconUpload_wrapper{
+  position: relative;
+  width: 40px;
+  height: 41px;
+  margin-left: 10px;
+  overflow: hidden;
+  background-color: #2F2739;
+  border-radius: 50%;
+
+  .icon-upload{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 13px;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+
+  input{
+    display: none;
+  }
+}

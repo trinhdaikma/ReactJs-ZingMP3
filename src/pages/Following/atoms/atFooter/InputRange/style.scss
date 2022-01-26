@@ -1,0 +1,26 @@
+.InputRange_wrapper{
+  form{
+    input[type="range"] {
+      display: block;
+      width: 400px;
+      height: 3px;
+      margin: 0 auto;
+      background: #778493;
+      border-radius: 5px;
+      outline: 0;
+      cursor: pointer;
+      -webkit-appearance: none;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      width: 15px;
+      height: 15px;
+      background-color: #E74C3C;
+      border: 2px solid white;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+      -webkit-appearance: none;
+    }
+  }
+}

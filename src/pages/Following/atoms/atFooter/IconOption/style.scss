@@ -1,0 +1,26 @@
+.IconOption_wrapper{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin-left: 3px;
+  border-radius: 50%;
+  cursor: pointer;
+
+  .left-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.IconOption_wrapper:hover{
+  background-color: #6A6972;
+}
+
+.icon-option{
+  margin: 0;
+}

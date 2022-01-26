@@ -1,0 +1,15 @@
+.RightVertical_wrapper{
+  position: relative;
+  margin: 0 20px;
+}
+
+.RightVertical_wrapper::after{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1px;
+  height: 40px;
+  background-color: #778493;
+  transform: translate(-50%, -50%);
+  content: "";
+}
